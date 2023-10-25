@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+ .header{
+    height: 20vh;
+    width: 100%;
+    background-color: rgb(218, 77, 250);
+    border: 1px solid rgb(218, 77, 250);
+    border-radius: 1rem;
+    height: fit-content;
+    color: #000;
+    padding: 10px;
+    margin-bottom: 5px;
+    font-family: 'Archivo Black', sans-serif;
+  }
+  .headeritems {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .headeritems h2 {
+    font-size: 40px;
+  }
+  .headeritems button {
+    width: 10%;
+    height:80px;
+    border: 2px solid transparent;
+    border-radius:30px;
+    background: rgb(162, 161, 252);
+    color: black;
+    font-family: serif;
+    font-size: 20px;
+    margin: auto 0px;
+    font-family: 'Archivo Black', sans-serif;
+  }
+  .fbtn:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(60, 94, 206);
+    cursor: pointer;
+    transition:0.5s;
+    box-shadow:0 0 10px rgb(49, 0, 0) ;
+  }
+  .container {
+    width: 100%;
+    height: fit-content;
+    padding: 10px;
+    background-color: rgb(132, 160, 253);
+    border: 1px solid rgb(132, 160, 253);
+    border-radius:1rem;
+  }
+  #main {
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+    padding: 20px;
+  }
+  .name:hover {
+    color: rgb(49, 0, 0);
+  }
+  .avatar {
+    border-radius: 2rem;
+
+  }
+  .profile_cont {
+    border-radius: 8%;
+    background-color: rgb(49, 0, 0);
+    color: white;
+    margin: 20px;
+    padding: 30px;
+    width: 20%;
+    text-align: center;
+    transition: transform ease 0.2s;
+    opacity: 0.8;
+    margin-top: 0vh;
+  }
+  .profile_cont:hover {
+    transform: scale(0.7);
+    background-color:rgb(218, 77, 250);
+    box-shadow: 10px 10px ;
+    opacity: 1;
+  }
